@@ -1,0 +1,33 @@
+.container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+button{
+    padding: 15px 15px;
+    outline: none;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+button:hover{
+background-color:black ;
+color: white;
+transition: .5s ease-in-out;
+}
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    line-height: 400px;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
